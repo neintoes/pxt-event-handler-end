@@ -9,7 +9,7 @@
         "main.ts",
         "README.md",
         "assets.json",
-        "overlapEnder.ts"
+        "overlap-event-end.ts"
     ],
     "testFiles": [
         "test.ts"
