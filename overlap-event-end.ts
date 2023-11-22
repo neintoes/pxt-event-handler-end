@@ -4,7 +4,7 @@ namespace sprites {
      * @param kind
      */
 
-    //% weight=3
+    //% weight=2
     //% block="end created events for kind $kind=spritekind"
     //% blockId=spritesoncreatedend 
     //% group=Lifecycle
@@ -21,7 +21,7 @@ namespace sprites {
      * End destroyed event handlers for the specified SpriteKind
      * @param kind
      */
-    //% weight=2
+    //% weight=1
     //% block="end destroyed events for kind $kind=spritekind"
     //% blockId=spritesondestroyedend 
     //% group=Lifecycle
@@ -42,7 +42,7 @@ namespace sprites {
     //% weight=1
     //% block="end overlap events between kind $kind=spritekind and kind $otherKind=spritekind"
     //% blockId=spritesonoverlapend
-    //% group=Lifecycle
+    //% group=Overlaps
     export function onOverlapEnd(kind: number, otherKind: number) {
         const sc = game.currentScene();
         const overlapHandlers = sc.overlapHandlers;
