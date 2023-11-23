@@ -1,6 +1,6 @@
 namespace sprites {
     /**
-     * End creation event handlers for the specified SpriteKind
+     * Terminate creation event handlers for the specified SpriteKind
      * @param kind
      */
 
@@ -18,7 +18,7 @@ namespace sprites {
     }
 
     /**
-     * End destroyed event handlers for the specified SpriteKind
+     * Terminate destroyed event handlers for the specified SpriteKind
      * @param kind
      */
     //% weight=1
@@ -35,7 +35,7 @@ namespace sprites {
     }
 
     /**
-     * End overlap event handlers between a pair of SpriteKinds
+     * Terminate overlap event handlers between a pair of SpriteKinds
      * @param kind
      * @param otherKind
      */
@@ -56,7 +56,7 @@ namespace sprites {
 
 namespace scene {
     /**
-     * End overlap event handlers between a SpriteKind and tile
+     * Terminate overlap event handlers between a SpriteKind and tile
      * @param kind
      * @param tile
      */
@@ -76,7 +76,7 @@ namespace scene {
     }
 
     /**
-     * End overlap event handlers between a SpriteKind and walls
+     * Terminate overlap event handlers between a SpriteKind and walls
      * @param kind
      */
     //% weight=1
